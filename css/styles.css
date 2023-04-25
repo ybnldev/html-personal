@@ -1,0 +1,207 @@
+/*HTML ELEMENTS*/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  /**line-height: 2;**/
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-weight: normal;
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:link, a:visited, a:hover, a:active {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  /* removes default underline */
+  /*  color: #11999e; */
+  background-color: inherit;
+  margin: 10px 20px;
+  /* separating the anchor tags */
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+p {
+  line-height: 2;
+}
+
+/* hr{
+
+ border-style:none;
+ border-top-style: dotted;
+ height: 50px;
+ border-width: 8px;
+ border-color: #DDDDDD;
+ width:75px;
+ margin-top: 50px;
+
+} */
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+/***div{
+  background-color: #C0EEE4;
+}***/
+/* IMAGE ELEMENTS*/
+.scr-img {
+  width: 25%;
+  /**defining this class as 25% of the parent**/
+  float: left;
+  margin-right: 30px;
+}
+
+.ptc-img {
+  width: 25%;
+  float: right;
+  /**wrap around img on the right**/
+  margin-left: 30px;
+}
+
+/** .float description {
+  width: 25%;
+  clear: right; THIS stops a wrap around img or text on the right:def the class in html
+  margin-left: 30px;
+}
+**/
+/**display: inline-block;
+  position: relative;
+  bottom: 400px;
+  left: 200px;**/
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+/* CSS ELEMENTS*/
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+  /**  height: 200px;
+    width: 200px;
+    display: inline-block;
+    position: relative;
+    left: 400px;**/
+}
+
+.middle-container {
+  margin: 100px 0;
+  /**background-color: red;
+    height: 200px;
+    width: 200px;
+    /**display: inline-block;
+    position: relative;
+    bottom: 200px;**/
+}
+
+.bottom-container {
+  margin-top: 20px;
+  background-color: #66BFBF;
+  height: 100px;
+  width: auto;
+  padding: 50px 0 20px;
+  text-decoration: none;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.circular {
+  border-radius: 100%;
+  width: 11%;
+  margin-top: 70px;
+}
+
+.dir {
+  color: #40514E;
+  padding-bottom: 200px;
+  width: 30%;
+  margin: auto;
+}
+
+.dirk {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.footer-link {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.rnd {
+  color: #EAF6F6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.skill-row {
+  width: 50%;
+  /** making the with of the class only 50% **/
+  margin: auto;
+  /** to keep it centered since its not 100% anymore**/
+  margin: 100px auto 100px auto;
+  /** separating the top and bottom margin with 100px**/
+  text-align: left;
+  /** overrides center allign from parent body**/
+}
